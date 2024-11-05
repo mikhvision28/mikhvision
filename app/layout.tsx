@@ -48,6 +48,24 @@ export const metadata: Metadata = {
     description: 'Professional digital services including web development, app development, SEO, social media marketing, and graphic design.',
     images: ['https://mikhvision.com/og-image.jpg']
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' }
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png' }
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/safari-pinned-tab.svg',
+        color: '#5bbad5' // Adjust color to match your brand
+      }
+    ]
+  },
+  manifest: '/site.webmanifest',
   viewport: {
     width: 'device-width',
     initialScale: 1,

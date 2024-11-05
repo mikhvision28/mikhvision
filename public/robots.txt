@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow admin pages
+Disallow: /admin/
+
+# Disallow search results pages
+Disallow: /search/
+
+# Disallow any temporary files or directories
+Disallow: /tmp/
+Disallow: /temp/
+
+# Disallow any private user data
+Disallow: /user/
+Disallow: /account/
+
+# Sitemap location
+Sitemap: https://www.mikhvisin.com/sitemap.xml
