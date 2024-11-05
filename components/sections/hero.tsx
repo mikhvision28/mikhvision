@@ -22,14 +22,14 @@ export function HeroSection() {
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-300">
             We craft cutting-edge digital solutions that help businesses thrive in the modern world.
-            From web development to digital marketing, we're your one-stop destination for all things digital.
+            From web development to digital marketing, we&apos;re your one-stop destination for all things digital.
           </p>
           <div className="flex justify-center gap-4">
             <Button asChild size="lg" className="bg-teal-600 hover:bg-teal-700">
               <Link href="/contact">Get Started</Link>
             </Button>
             <Button asChild size="lg" variant="outline">
-              <Link href="/services">
+              <Link href="#services">
                 Our Services <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

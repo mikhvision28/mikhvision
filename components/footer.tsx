@@ -19,7 +19,7 @@ export function Footer() {
               {['Home', 'About', 'Services', 'Portfolio', 'Contact'].map((item) => (
                 <li key={item}>
                   <Link
-                    href={`/${item.toLowerCase()}`}
+                    href={`#${item.toLowerCase()}`}
                     className="text-sm hover:text-teal-400 transition-colors"
                   >
                     {item}

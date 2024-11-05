@@ -6,28 +6,28 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Kamal Kant Hiran',
-    role: 'CEO, TechStart',
+    name: 'Sailesh',
+    role: 'CEO, DataCloudCorp',
     image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&auto=format',
+      '/datacloudcorp.png',
     content:
       'Mikhvision transformed our digital presence completely. Their teams expertise in web development and digital marketing helped us achieve remarkable growth.',
     rating: 5,
   },
   {
-    name: 'Michael Chen',
-    role: 'Marketing Director, GlobalTech',
+    name: 'Ravi',
+    role: 'Founder, Nextversity',
     image:
-      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&auto=format',
+      '/nextversity.png',
     content:
       'The app development team at Mikhvision delivered beyond our expectations. Their attention to detail and innovative solutions set them apart.',
     rating: 5,
   },
   {
-    name: 'Emily Rodriguez',
-    role: 'Founder, EcoStyle',
+    name: 'Bhanu',
+    role: 'Director, Vilambo',
     image:
-      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&auto=format',
+      '/vilambo2.png',
     content:
       'Working with Mikhvision on our branding and social media strategy was a game-changer. They truly understand modern digital marketing.',
     rating: 5,
