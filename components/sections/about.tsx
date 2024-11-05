@@ -30,7 +30,7 @@ const AboutSection: React.FC<AboutSectionProps> = () => {
           {/* Content Section */}
           <div className="space-y-8">
             <p className="text-gray-600 dark:text-gray-300 text-lg">
-              Mikhvision Digi Solutions is a leading software company dedicated to delivering high-quality digital services to help businesses grow and succeed in an increasingly digital world. Our expertise spans a wide range of services, from web development and app creation to content marketing, SEO, and graphic design.
+              Mikhvision Digi Solutions LLP is a leading software company dedicated to delivering high-quality digital services to help businesses grow and succeed in an increasingly digital world. Our expertise spans a wide range of services, from web development and app creation to content marketing, SEO, and graphic design.
             </p>
 
             {/* Mission and Vision Cards */}
